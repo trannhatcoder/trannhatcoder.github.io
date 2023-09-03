@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FOOD WEBSITE</title>
+</head>
+<body>
+    <section class="top">
+        <div class="container">
+            <div class="row justify-content">
+                <div class="logo"><img src="images/logo.png"></div>
+                <div class="menu-items">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Reservation</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FeedBack</a></li>
+                        <li><a href="#">Chef</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="order-food section-pading">
+        <div class="container">
+            <div class="row justify-content">
+                <div class="section-title">
+                    <h2 data-title="ORDER FORM">ORDER NOW</h2>
+                </div>
+            </div>
+            
+            <!-- <h2 class="text-center text-white">Fill this form to confirm your order.</h2> -->
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/menu11.jpg" alt="Chicke Hawain Pizza" class="img-responsive">
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Vịt Quay</h3>
+                        <p class="food-price">120.000 VND</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="orders-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. Tran Nhat" class="input-responsive" required>
+
+                    <div class="orders-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 098xxxxxxx" class="input-responsive" required>
+
+                    <div class="orders-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. trannhat@gmail.com" class="input-responsive" required>
+
+                    <div class="orders-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn-secondary">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+
+    <section class="footer" id="contact">
+        <div class="footer-bg"></div>
+        <div class="container">
+            <div class="row justify-content">
+                <div class="footer-item">
+                    <h2>Địa Chỉ</h2>
+                    <p>72, Hàm Nghi <br> Thạc Gián, Đà Nẵng</p>
+                </div>
+                <div class="footer-item">
+                    <h2>Giờ Mở Cửa</h2>
+                    <p>7:00 - 23:30 <br> All Day</p>
+                </div>
+                <div class="footer-item">
+                    <h2>Liên Hệ</h2>
+                    <p>Phone: 0927379766 <br> Email: thaimarket@gmail.com.vn</p>
+                    <div class="footer-social">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-copyright">
+                &copy;2023. Bản quyền thuộc về ThaiMarket
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
