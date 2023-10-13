@@ -1,0 +1,208 @@
+:root {
+    --main-color: #0F2D53;
+    --sub-color: #EAA023;
+    --text-color: white;
+    --bg--color: #0C1023;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tbl-full th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+.tbl-full th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: white;
+    padding: 1%;
+    background-color: var(--main-color);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    color: var(--sub-color);
+    background-color: var(--bg--color);
+}
+
+.btn-secondary {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #7bed9f;
+    padding: 1%;
+    border: 1px solid green;
+    flex-wrap: wrap;
+}
+
+.btn-secondary:hover {
+    color: #3742fa;
+    background-color: #2ed573;
+}
+
+.btn-danger {
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ff7f50;
+    padding: 1%;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}
+
+.btn-danger:hover {
+    color: brown;
+    background-color: #ff6348;
+}
+
+h1 {
+    text-align: center;
+}
+
+.success {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td a {
+    display: inline-block;
+}
+
+/* css for footer */
+.footer {
+    background-color: var(--bg--color);
+    color: var(--text-color);
+}
+
+.footer a {
+    color: beige;
+}
+
+.footer a:hover {
+    color: #EAA023;
+}
+
+/* css for menu */
+.menu {
+    background-color: var(--main-color);
+    text-align: center;
+    border-bottom: 2px solid yellowgreen;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.menu ul li a:hover {
+    color: var(--sub-color);
+}
+
+/* css for main content */
+.main-content {
+    padding: 3% 0;
+    background-color: #b3b3b342;
+}
+
+.col-4 {
+    width: 20%;
+    background-color: var(--text-color);
+    margin: 1%;
+    padding: 2%;
+    width: calc(100%/3 - 30px);
+    float: left;
+    flex-wrap: wrap;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+/* css for add food */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    /* text-align: center; */
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="number"],
+input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+select {
+    height: 35px;
+}
